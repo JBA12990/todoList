@@ -1,0 +1,7 @@
+# 依赖和构建产物，绝不提交
+node_modules
+dist
+
+# 编辑器本地配置
+.vscode/*
+!.vscode/extensions.json

@@ -1,0 +1,14 @@
+// 使用：@use "../../styles/variables.scss" as *;引入后再 @include调用 @include flex-center; 
+
+//  flex垂直居中
+@mixin flex-column-center {
+    display: flex;
+    align-items: center;
+}
+
+// flex水平垂直居中
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
