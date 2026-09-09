@@ -23,6 +23,7 @@ const classMap = {
   doneChoose: "yigouxuan", // 已勾选
   add: "icon-jiajianzujianjiahao", // 加号
   list: "icon-liebiao", // 列表
+  delete: "icon-shanchu", // 删除
 };
 
 const props = defineProps({
@@ -38,7 +39,7 @@ const props = defineProps({
 });
 
 //图标类样式
-const fontClass = computed(() => classMap[props.type as keyof typeof classMap]);
+const fontClass = computed(() => classMap[props.type as keyof typeof classMap]); // 类型断言
 </script>
 
 <style scoped>

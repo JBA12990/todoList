@@ -1,16 +1,18 @@
 // 使用：在其他组件的style里 @use '../styles/variables' as *; 然后就可以直接用
 
-// colors
+// bcg-color
 $primary-color: #42b883;
 $text-color: #333;
-////
+$selected-color-dark:rgb(48, 48, 48);
 $header-color-dark: rgb(48, 49, 51);
 $header-color-sun: rgb(255, 255, 255);
 $left-list-color:rgb(33, 33, 33);
 $right-list-color:rgb(33, 33, 33);
+$task-color:rgb(18, 18, 18); 
 
 //border-color;
-$border-color-dark:rgb(60, 60, 60); 
+$border-color-dark:rgb(60, 60, 60);
+$select-border-color:rgb(4, 94, 211);
 
 // 
-$border-radius: 0.5rem;
+$border-radius: 0.6rem;

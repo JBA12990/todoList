@@ -1,9 +1,9 @@
 <template>
-  <layout></layout>
+  <Layout />
 </template>
 
 <script setup lang="ts">
-import Layout from "./components/Layout/Layout.vue";
+import Layout from './components/Layout/Layout.vue';
 </script>
 
 <style lang="scss">
@@ -14,7 +14,10 @@ import Layout from "./components/Layout/Layout.vue";
   padding: 0;
   box-sizing: border-box;
 }
-
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 html {
   width: 100%;
   height: 100%;

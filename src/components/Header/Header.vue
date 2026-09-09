@@ -1,13 +1,15 @@
 <template>
   <div class="container">
     <Icon class="searchIcon" type="search" :size="46" />
-    <Input class="Input" />
+    <Input class="Input" @search-value="emit('searchValue', $event)" />
   </div>
 </template>
 
 <script setup lang="ts">
 import Icon from "../Icon/Icon.vue";
 import Input from "../Input/input.vue";
+
+const emit = defineEmits<{ (e: "searchValue", type: string): void }>();
 </script>
 
 <style scoped lang="scss">
