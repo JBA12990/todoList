@@ -28,13 +28,13 @@ function onAddGroup() {
   gap: 2rem;
   border-radius: $border-radius;
   .icon {
-    color: white;
+    color: var(--add-icon);
     position: relative;
     left: 0.3em;
     cursor: pointer;
   }
   .text {
-    color: white;
+    color: var(--add-icon);
     position: relative;
     cursor: pointer;
   }

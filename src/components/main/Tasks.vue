@@ -81,7 +81,7 @@ function deleteTask(id: number) {
 
     @include flex-column-center;
     strong {
-      color: white;
+      color: var(--panel-text);
       font-size: 2rem;
     }
     .addIcon {
@@ -89,7 +89,7 @@ function deleteTask(id: number) {
       height: 2rem;
       @include flex-center;
       border-radius: 15px;
-      color: white;
+      color: var(--add-icon);
       cursor: pointer;
 
       transition: all 0.2s ease-in-out;
@@ -101,7 +101,7 @@ function deleteTask(id: number) {
         position: absolute;
         transform: translateY(2rem); // 位移
         opacity: 0;
-        background: $text-color;
+        background: var(--header-bg);
         @include flex-center;
         border-radius: 5px;
       }
@@ -110,7 +110,7 @@ function deleteTask(id: number) {
           opacity: 1;
           transform: translateY(2.5rem);
         }
-        background: $text-color;
+        background: var(--header-bg);
       }
     }
   }

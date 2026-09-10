@@ -1,0 +1,31 @@
+/* 默认：浅色,深色用data-theme同名覆盖 */
+:root {
+    --header-bg: rgb(244, 244, 244);
+    --left-list-bg: rgb(244, 244, 244);
+    --right-list-bg: rgb(244, 244, 244);
+    --task-bg: rgb(255, 255, 255);
+    --border: rgb(229, 229, 229);
+    --accent: rgb(4, 94, 211);
+    /* 选中高亮蓝色 */
+    --panel-text: rgb(48, 48, 48); /* 字体颜色 */
+    --input-bg: rgb(195, 199, 207);
+    --add-icon: rgb(18, 18, 18);/* 添加 */
+    --task-choose: rgb(228, 231, 245);
+    --task-hover: rgb(192, 194, 202);
+}
+
+html[data-theme="dark"] {
+    --header-bg: rgb(48, 49, 51);
+    --left-list-bg: rgb(33, 33, 33);
+    --right-list-bg: rgb(33, 33, 33);
+    --task-bg: rgb(18, 18, 18);
+    --border: rgb(60, 60, 60);
+    --accent: rgb(4, 94, 211);
+    /* 选中高亮蓝色 */
+    --panel-text: rgb(255, 255, 255);
+    --input-bg: rgb(42, 42, 42);
+    --add-icon: rgb(255,255,255);
+    --task-choose: rgb(58, 63, 85);
+    --task-hover: rgb(48, 48, 48);
+
+}

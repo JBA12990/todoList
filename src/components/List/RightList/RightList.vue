@@ -49,10 +49,10 @@ const visibleTasks = computed(() => {
 @use "../../../styles/color.scss" as *;
 
 .right-list {
-  background: $right-list-color;
+  background: var(--right-list-bg);
   width: 100%;
   height: 100%;
-  border-left: 0.15rem solid $border-color-dark;
+  border-left: 0.15rem solid var(--border);
   box-sizing: border-box;
 }
 </style>

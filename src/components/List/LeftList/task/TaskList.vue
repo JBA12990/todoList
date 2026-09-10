@@ -73,7 +73,7 @@ function onDelete(id: number) {
     border: solid 0.2rem $border-color-dark;
     outline: none;
     background-color: $left-list-color;
-    color: rgb(255, 255, 255);
+    color: var(--panel-text);
     margin-top: 0.25rem;
     padding: 0 1.2rem;
     font-size: large;

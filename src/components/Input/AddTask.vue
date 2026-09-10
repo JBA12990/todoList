@@ -29,8 +29,8 @@ function submitTask() {
   height: 100%;
 
   font-size: large;
-  background-color: rgb(18, 18, 18);
-  color: white;
+  background-color: var(--task-bg);
+  color: var(--panel-text);
   outline: none;
 
   border: solid 0.17rem rgb(87, 119, 248);

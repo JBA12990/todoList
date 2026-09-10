@@ -24,6 +24,7 @@ const classMap = {
   add: "icon-jiajianzujianjiahao", // 加号
   list: "icon-liebiao", // 列表
   delete: "icon-shanchu", // 删除
+  change: "icon-qiehuan", // 切换
 };
 
 const props = defineProps({

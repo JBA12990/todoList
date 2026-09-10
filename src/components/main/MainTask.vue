@@ -1,6 +1,6 @@
 <template>
   <div class="mainTask" @click="TaskSelectColor" :class="{ selected: active }">
-    <input type="checkbox" @click.stop="checkboxSelect" :checked="completed"/>
+    <input type="checkbox" @click.stop="checkboxSelect" :checked="completed" />
     <span class="text">{{ props.type }}</span>
     <Icon type="delete" class="Icon" :size="20" @click.stop="TaskId" />
   </div>
@@ -93,10 +93,10 @@ function checkboxSelect() {
     }
   }
   .text {
-    color: white;
+    color: var(--panel-text);
   }
   .Icon {
-    color: white;
+    color: var(--add-icon);
     margin-left: auto;
     margin-right: 3rem;
     cursor: pointer;

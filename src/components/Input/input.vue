@@ -28,8 +28,8 @@ input {
   border-radius: $border-radius;
   border: none;
   outline: none;
-  background-color: rgb(42, 42, 42);
-  color: rgb(255, 255, 255);
+  background-color: var(--input-bg);
+  color: var(--panel-text);
 
   padding: 0 1.2rem;
   font-size: large;

@@ -68,7 +68,7 @@ function Delete() {
 
   // 子元素
   .list {
-    color: rgb(255, 255, 255);
+    color: var(--panel-text);
     position: relative;
     left: 0.3em;
   }
@@ -77,17 +77,17 @@ function Delete() {
     transform: translateX(-1rem);
   }
   .text {
-    color: white;
+    color: var(--panel-text);
     position: relative;
   }
   .count {
-    color: white;
+    color: var(--panel-text);
     margin-right: 2rem;
     margin-left: auto;
   }
 }
 
 .task-choose.selected {
-  background-color: rgb(58, 63, 85);
+  background-color: var(--task-choose);
 }
 </style>
